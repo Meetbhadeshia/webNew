@@ -144,3 +144,39 @@ a{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+
+ @media screen and (max-width:360px) {
+  body {
+    width: 600px;
+    }
+
+  .top-container {
+    padding-top: 710px;
+    position: relative;
+    }
+
+  .h1-intro {
+    margin-top: 0;
+    position: absolute;
+    top: 360px;
+    left: 110px;
+    }
+
+  .top-cloud {
+    position: absolute;
+    right: 360px;
+    top: 180px;
+    }
+
+  .h2-intro {
+    position: absolute;
+    top: 450px;
+    left:140px;
+    }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 450px;
+    }
+  }
